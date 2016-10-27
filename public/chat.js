@@ -1,7 +1,7 @@
 window.onload = function() {
 
     var messages = [];
-    var socket = io.connect('https://'+location.host);
+    var socket = io.connect('http://'+location.host);
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
@@ -35,4 +35,7 @@ window.onload = function() {
 document.onkeydown = function(evt) {
 if (evt.keyCode === 13 && ['name', 'field'].indexOf(document.activeElement.id) > -1 ) { sendMessage(); }
 else { }
+
+var log = $('#content');
+log.animate({ scrollTop: log.prop('scrollHeight')}, 1000);
 }
