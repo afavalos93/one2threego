@@ -32,10 +32,7 @@ window.onload = function() {
     };
 
 }
-$(document).ready(function() {
-    $("#field").keyup(function(e) {
-        if(e.keyCode == 13) {
-            sendMessage();
-        }
-    });
-});
+document.onkeydown = function(evt) {
+if (evt.keyCode === 13 && ['name', 'field'].indexOf(document.activeElement.id) > -1 ) { sendMessage(); }
+else { }
+}
