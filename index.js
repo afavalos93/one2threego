@@ -20,7 +20,10 @@ app.get("/", function(req, res){
 var io = require('socket.io').listen(app.listen(port));
 
 io.sockets.on('connection', function (socket) {
-    socket.emit('message', { message: 'welcome to the chat' });
+
+	console.log("User connected");
+
+    socket.emit('message', { message: '<p style="color:pink;display:inline;">Welcome to the chat. Fill out the Name and Message fields, then press Enter or the Send button to chat!</p>' });
     socket.on('send', function (data) {
         io.sockets.emit('message', data);
     });

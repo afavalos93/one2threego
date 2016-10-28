@@ -15,13 +15,21 @@ html
 				color:white;
 				background-color:#282828;
 			}
+			input{
+				font-family: Open Sans, sans-serif; 
+			}
+			input[type="button"] {
+				border-radius: 3px;
+				border-color:white;
+				
+			}			
 
 	body
-		#content(style='width: 100%; height: 300px; margin: 0 0 20px 0; border: solid 0px #999; overflow-y: scroll;')
+		#content(style='width: 100%; height: 86vh; margin: 0 0 20px 0; border: solid 0px #999; overflow-y: scroll;')
 		.controls
 			div(style='text-align:left;')
 
 				input#name(style='width:350px;', placeholder="Name")
 				br
 				input#field(style='width:350px;',placeholder="Message")
-				input#send(type='button', value='send', )
+				input#send(type='button', value='Send', )
