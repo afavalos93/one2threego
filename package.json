@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublish": "bower install"
+    "prepublish": "bower install",
     "start": "node server.js"
   },
   "repository": {
