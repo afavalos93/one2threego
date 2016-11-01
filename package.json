@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
