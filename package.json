@@ -24,6 +24,7 @@
     "type": "git",
     "url": "https://github.com/afavalos93/one2threego"
   },
+  "cacheDirectories": ["node_modules", "components"],
   "author": "Tamas Piros",
   "url": "http://tamas.io",
   "email": "me@tamas.io",
