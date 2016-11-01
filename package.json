@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "node.js/socket.io chat app",
   "main": "server.js",
-  "engines": {"node": "4.6.0"}
+  "engines": {"node": "4.6.0"},
   "dependencies": {
     "ejs": "~0.8.5",
     "express": "~3.4.8",
