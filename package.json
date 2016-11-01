@@ -17,8 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublish": "bower install",
-    "start": "node server.js"
+    "postinstall": "bower install",
   },
   "repository": {
     "type": "git",
