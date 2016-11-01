@@ -17,8 +17,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublish": "bower install",
-    "start": "npm start"
+    "prepublish": "npm install && bower install",
+    "start": "npm start",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
