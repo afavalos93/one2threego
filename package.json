@@ -17,6 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "preinstall": "bower install"
   },
   "repository": {
     "type": "git",
