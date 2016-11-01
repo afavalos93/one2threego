@@ -21,7 +21,7 @@ app.configure(function() {
 
 	/* Store process-id (as priviledged user) */
 	try {
-	    npid.create('/var/run/advanced-chat.pid', true);
+	    npid.create('var/run/advanced-chat.pid', true);
 	} catch (err) {
 	    console.log(err);
 	    //process.exit(1);

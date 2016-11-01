@@ -81,7 +81,7 @@ function timeFormat(msTime) {
 
 $(document).ready(function() {
   //setup "global" variables first
-  var socket = io.connect('http://'+location.host);
+  var socket = io.connect(window.location.hostname);
   var myRoomID = null;
 
   $("form").submit(function(event) {
