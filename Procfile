@@ -1,2 +1,2 @@
-npm install && bower install
+web: npm install && bower install
 web: npm start
