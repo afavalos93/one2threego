@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublish": "node bower install"
+    "prepublish": "bower install"
   },
   "repository": {
     "type": "git",
