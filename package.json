@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublish": "bower install"
+    "prepublish": "./node_modules/bower/bin/bower install install"
   },
   "repository": {
     "type": "git",
