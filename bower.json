@@ -7,7 +7,7 @@
     "typeahead.js": "0.11.1",
     "font-awesome": "4.7.0"
   },
-  "directory": "bower_components",
+  "directory": "components",
   "homepage": "https://github.com/tamaspiros/advanced-chat",
   "authors": [
     "Tamas Piros <me@tamas.io>"
